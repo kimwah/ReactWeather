@@ -5,7 +5,9 @@ var WeatherMessage = React.createClass({
     var {temp, location} = this.props;
 
     return (
-      <h3>It's it {temp} in {location}.</h3>
+		<div>
+			<h3>It's it {temp} in {location}  !</h3>
+		</div>	
     )
   }
 });
